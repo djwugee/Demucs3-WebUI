@@ -3,6 +3,15 @@ Demucs3 WEBUI<br />
 
 # Installation
 ```npm i && node .```<br />
+```pip3 install demucs```<br />
+You need to install the audio file I/O backend. If Linux it's Sox, if Windows it's SoundFile
+<br />
+To check if you have one set run ```str(torchaudio.get_audio_backend())``` and if 'None' is the result then install the backend.
+<br />
+SoundFile for Windows ```pip install PySoundFile```
+<br />
+Sox for Linux ```pip install sox```
+<br />
 NOTE: THIS WILL AUTO DOWNLOAD FFMPEG & 7ZA BINARIES FOR WINDOWS!! EDIT INDEX.JS TO SEE WHERE IT DOWNLOADS FROM (and how you can do it yourself)
 
 # Preview
