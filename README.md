@@ -6,7 +6,7 @@ Demucs3 WEBUI<br />
 ```pip3 install demucs```<br />
 You need to install the audio file I/O backend. If Linux it's Sox, if Windows it's SoundFile
 <br />
-To check if you have one set run ```str(torchaudio.get_audio_backend())``` and if 'None' is the result then install the backend.
+To check if you have one set run ```str(torchaudio.get_audio_backend())```
 <br />
 SoundFile for Windows ```pip install PySoundFile```
 <br />
