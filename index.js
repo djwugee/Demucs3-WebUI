@@ -185,7 +185,7 @@ async function separate(req, res) {
     const fileDir = path.dirname(originalname);
     const outDir = `./out/${fileName}_${genId()}_demucs3`;
     const outFile = `${outDir}/out.zip`;
-    const cmd = `python -m demucs.separate -n mdx_extra -o ${outDir} ./in/${filename}`;
+    const cmd = `python3 -m demucs.separate -n mdx_extra -o ${outDir} ./in/${filename}`;
 
     // get a time estimate for the separation (around 1.76 seconds of audio processed per second)
 
